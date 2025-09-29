@@ -8,27 +8,6 @@ The goal: real-time, shared electromagnetic situational awareness for field team
 
 ---
 
-ATAKRR, despite what the name suggests, is actually a passive/defensive tool designed to give you a hyperspectral awareness of your environment.  We're surrounded by, basking in, signals in RF, that is, radio freqencies.  They are  a portion of what's called [the Electromagnetic (EM) Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum), which goes from radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.  We can only see visible light (and hear sound waves, but those are acoustic, not EM) but the entire spectrum is around us all the time.  What we're talking about is making radio waves and microwaves "visible" to us, not just in the sense of "we can see them like colors", but we can understand them like images.  
-
-"Oh, this is an orange", you say when the  signal pattern that looks like an orange is visible".  "Oh, this is a bird chirping", you say when you hear a bird chirp.  "Oh, this is a WiFi communication", you say, when you're using ATAKRR.  This is a voice communication, this is a WiFi conversation, this is a jammer.  It goes beyond that, though - an orange is an orange, but actually each orange is unique.  A person is a person, but actually each one is unique.  ATAKRR does device fingerprinting, which allows you to determine the type of device, the language of the transmissions (encoding), the frequency it's occurring on ("color"), and the location it's occurring at, or has occurred at in the past.
-
-## Why ATAKRR?
-
-We are surrounded by signals in the RF domain — a slice of the [electromagnetic (EM) spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). Humans can only see visible light and hear acoustic waves, but the rest of the EM spectrum is around us all the time.  
-
-ATAKRR makes these invisible signals “visible” and interpretable:
-
-- “Oh, this is WiFi traffic.”
-- “That’s a voice transmission.”
-- “This is a jammer.”
-- “This Bluetooth device matches a known fingerprint.”
-
-And just like each orange or each person is unique, **each transmitter has unique device fingerprints**. ATAKRR enables you to determine the device type, encoding (“language”), frequency (“color”), and — when possible — the location of each transmitter.
-
-What you'll get is a map, an overlay on your ATAK device with all of the transmitters and their locations, as well as unique device fingerprints when available.  You can see where they are, what they're doing, and in some cases who they're talking to.  You can track the movement of devices over time.  You can track a particular device, see the movement pattern of multiple devices, see the interrelationships of the devices (who they're connected to, when available).  You can track people by their phones and bluetooth devices.  You can find out when people gather.  You can "see" an entire world that was previously hidden to you.
-
----
-
 ## Features
 
 - **Passive wideband spectrum monitoring** (1 MHz – 6 GHz with HackRF)
@@ -41,6 +20,23 @@ What you'll get is a map, an overlay on your ATAK device with all of the transmi
   ‣ CoT overlays of transmitters and devices  
   ‣ Heatmaps, markers, and device tracking  
 - **Dataset tools** for training, augmentation, and few-shot learning
+
+---
+
+## Why ATAKRR?
+
+We are surrounded by signals in the RF domain — a slice of the [electromagnetic (EM) spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum). Humans can only see visible light and hear acoustic waves, but the rest of the EM spectrum is around us all the time.  They are  a portion of what's called [the Electromagnetic (EM) Spectrum](https://en.wikipedia.org/wiki/Electromagnetic_spectrum), which goes from radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.  We can only see visible light (and hear sound waves, but those are acoustic, not EM) but the entire spectrum is around us all the time.  What we're talking about is making radio waves and microwaves "visible" to us, not just in the sense of "we can see them like colors", but we can understand them like images.
+
+ATAKRR makes these invisible signals “visible” and interpretable:
+
+- “Oh, this is WiFi traffic.”
+- “That’s a voice transmission.”
+- “This is a jammer.”
+- “This Bluetooth device matches a known fingerprint.”
+
+And just like each orange or each person is unique, **each transmitter has unique device fingerprints**. ATAKRR enables you to determine the device type, encoding (“language”), frequency (“color”), and — when possible — the location of each transmitter.
+
+What you'll get is a map, an overlay on your ATAK device with all of the transmitters and their locations, as well as unique device fingerprints when available.  You can see where they are, what they're doing, and in some cases who they're talking to.  You can track the movement of devices over time.  You can track a particular device, see the movement pattern of multiple devices, see the interrelationships of the devices (who they're connected to, when available).  You can track people by their phones and bluetooth devices.  You can find out when people gather.  You can "see" an entire world that was previously hidden to you.
 
 ---
 
