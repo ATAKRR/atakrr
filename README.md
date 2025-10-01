@@ -4,7 +4,7 @@
 
 ATAKRR is an open-source research and development platform for **passive spectrum monitoring**, **automatic modulation classification (AMC)**, and **RF fingerprinting**, designed to integrate directly with [ATAK (Android Team Awareness Kit)](https://tak.gov/).  
 
-The goal: real-time, shared electromagnetic situational awareness for field teams.
+The goal: real-time, shared electromagnetic situational awareness for field teams.  We're seeking funding from DARPA and other military programs and also looking for collaborators and/or businesses who would be interested in developing this.  We're looking for an ATAK and Android programmer, contact at atakrr a@t ethertech.org
 
 ---
 
