@@ -1,5 +1,7 @@
 # ATAKRR: ATAK Radio Reconnaissance
 
+Please submit PRs or open issues to discuss features. Contact me at atakrr (a@t) ethertech.org to discuss.  We have AI/ML, FPGA, and ATAK coders, but we are still looking for a high-level architect using python.  We'd love to work with you!  This is currently in proposal stage, I have a proposal for HR001125S0002 that will be submitted at the end of 10/2025.  We're looking for collaborators and funding!
+
 ## Overview
 
 ATAKRR is an open-source research and development platform for **passive spectrum monitoring**, **automatic modulation classification (AMC)**, and **RF fingerprinting**, designed to integrate directly with [ATAK (Android Team Awareness Kit)](https://tak.gov/).  
