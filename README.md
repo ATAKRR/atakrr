@@ -8,7 +8,7 @@ This is currently in proposal stage, I have a proposal for HR001125S0002 that wi
 
 ## Research
 
-Research papers used in the creation of this project (are available here)[https://drive.google.com/drive/folders/1nI4PxRj696r4SvfwzsQGl0-2W4ehx8ts?usp=sharing].
+Research papers used in the creation of this project [are available here](https://drive.google.com/drive/folders/1nI4PxRj696r4SvfwzsQGl0-2W4ehx8ts?usp=sharing).
 
 ## Overview
 
