@@ -6,6 +6,10 @@ We already have AI/ML, FPGA, and ATAK coders, (Jeffrey Zurita, Jigish Shukla, RI
 
 This is currently in proposal stage, I have a proposal for HR001125S0002 that will be submitted at the end of 10/2025.  We're looking for collaborators and funding!
 
+## Research
+
+Research papers used in the creation of this project (are available here)[https://drive.google.com/drive/folders/1nI4PxRj696r4SvfwzsQGl0-2W4ehx8ts?usp=sharing].
+
 ## Overview
 
 ATAKRR is an open-source research and development platform for **passive spectrum monitoring**, **automatic modulation classification (AMC)**, and **RF fingerprinting**, designed to integrate directly with [ATAK (Android Team Awareness Kit)](https://tak.gov/).  
