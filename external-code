@@ -1,0 +1,57 @@
+# Introduction
+
+Here’s a summary of the uploaded papers that explicitly **mention available source code or GitHub repositories** to support implementation, especially for RF fingerprinting, SEI, or AMC systems:
+
+---
+
+## ✅ Papers with Source Code or Repositories
+
+### 1. **Meta-RFF: Meta-learning with Local Differential Privacy for RFF**
+
+* **Code**: Yes, GitHub repo mentioned.
+* **Repo URL**: [https://github.com/XiuyuYin/Meta-RFF](https://github.com/XiuyuYin/Meta-RFF)
+* **Contents**: Implements their meta-learning-based SEI framework with differential privacy. Useful for privacy-preserving federated or few-shot systems.
+* **Use for ATAKRR**: Strong candidate for bootstrapping Meta-RFF or few-shot adaptation modules.
+
+---
+
+### 2. **MPDFormer: Multi-Period Discriminator Transformer**
+
+* **Code**: Yes, GitHub repo explicitly listed.
+* **Repo URL**: [https://github.com/Liaoyz-Code/MPDFormer](https://github.com/Liaoyz-Code/MPDFormer)
+* **Contents**: Transformer-based architecture optimized for periodic modulation features (e.g., OFDM, ZigBee).
+* **Use for ATAKRR**: Could be valuable for longer bursts or ZigBee/WiFi classification; serves as an alternative or supplement to CNN front-ends.
+
+---
+
+### 3. **Few-Shot Metric Learning for SEI**
+
+* **Code**: Yes, available at [https://github.com/zhangyi95/Few-shot-SEI](https://github.com/zhangyi95/Few-shot-SEI)
+* **Contents**: Implements a time–frequency fusion CNN + prototypical network framework for SEI.
+* **Use for ATAKRR**: Strong starting point for few-shot prototypical models or time-frequency hybrid architectures.
+
+---
+
+### 4. **AMAE: Asymmetric Masked Autoencoder for Wireless**
+
+* **Code**: Yes, GitHub repo included.
+* **Repo URL**: [https://github.com/xuchen123/AMAE](https://github.com/xuchen123/AMAE)
+* **Contents**: Implements an SSL-style masked autoencoder for pretraining signal encoders.
+* **Use for ATAKRR**: Useful for large-scale unlabeled pretraining; pairs well with federated downstream fine-tuning.
+
+---
+
+### 5. **SCAN: Sparse Coding for Burst Detection**
+
+* **Code**: Not officially listed, but implementation details are explicit enough to reimplement.
+* **Recommendation**: Re-implement SCAN from scratch using `cvxpy` or `sklearn.linear_model.Lasso`. I can help you build a minimal Python version of Algorithm 1.
+
+---
+
+## ⚠️ Papers That Mention Code "Available Upon Request"
+
+Several other papers mention data/code being available upon request or pending upload (not public). You may want to email authors of:
+
+* `MPDFormer` paper (for broader datasets)
+* `Channel-Robust Transformer for SEI` (mentions tools but no direct repo link)
+* `Unsupervised SEI` survey (may link to multiple known repos in citations)
