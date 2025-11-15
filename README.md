@@ -12,6 +12,8 @@ Research papers used in the creation of this project [are available here](https:
 
 ## Overview
 
+![ATAKRR visual overview](/ATAKRR_System.png)
+
 ATAKRR is an open-source research and development platform for **passive spectrum monitoring**, **automatic modulation classification (AMC)**, and **RF fingerprinting**, designed to integrate directly with [ATAK (Android Team Awareness Kit)](https://tak.gov/).  
 
 The goal: real-time, shared electromagnetic situational awareness for field teams.  
@@ -55,6 +57,8 @@ What you'll get is a map, an overlay on your ATAK device with all of the transmi
 ---
 
 ## How Does ATAKRR Work?
+
+![WHARF Data Flow](/WHARF-Data_Flow.png)
 
 ### Hardware/Signal Collection Layer
 - **HackRF** provides a tunable view of the spectrum from 1 MHz to 6 GHz at 20 MSps (≈20 MHz bandwidth).  
